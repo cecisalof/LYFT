@@ -26,7 +26,7 @@ axios.post('https://lyft-interview-test.glitch.me/test', {
 //}
 .then(res => {
     console.log(res.data)
-    //console.log(res.json({"return-string": res}))
+    //console.log(res.json({"return_string": res}))
 }).catch(error =>{
     console.log(error);
 });
